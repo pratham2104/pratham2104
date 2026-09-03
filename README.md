@@ -44,14 +44,10 @@ Static-analysis auditor for Fortinet, Versa Networks, and HPE Aruba SD-WAN confi
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=pratham2104&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="pratham2104's GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratham2104&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="165" />
+<img src="./profile/stats.svg" alt="pratham2104's GitHub stats" height="165" />
+<img src="./profile/top-langs.svg" alt="Top languages" height="165" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=pratham2104&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=pratham2104&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub trophies" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pratham2104&theme=tokyo-night&hide_border=true" alt="Contribution activity graph" width="100%" />
+<img src="https://streak-stats.demolab.com?user=pratham2104&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
 
 </div>
 
