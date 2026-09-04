@@ -12,19 +12,90 @@
 
 I build security tooling that I actually test against real, self-built targets instead of tutorials. Recent projects span behavioral ransomware detection (entropy + rename-velocity, not signatures), an async API vulnerability scanner mapped to the OWASP API Top 10 and MITRE ATT&CK, an LLM-based SIEM triage agent validated against ground-truth findings from my own scanner, and a multi-vendor SD-WAN config auditor — alongside a completed Google Cybersecurity Professional Certificate portfolio and full-stack web work (Node/Express/PostgreSQL, Next.js). A recurring thread in the security repos: ship a detector, then prove it actually fires by running it against something real and writing up the bugs that surfaced along the way.
 
-## Stack
+## My Favorite Tools and Technologies ⚙️
 
-**Languages**
+> Tools and technologies that actually show up across these repos — not a wishlist
 
-<img src="https://skillicons.dev/icons?i=py,java,js,html,css" alt="Python, Java, JavaScript, HTML, CSS" />
-
-**Frameworks & Backend**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,nextjs,postgres,redis,tailwind" alt="Node.js, Express, Next.js, PostgreSQL, Redis, Tailwind CSS" />
-
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,linux,jest" alt="Git, GitHub, Linux, Jest" />
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
+      <br>Java
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
+      <br>HTML
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
+      <br>CSS
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      <br>Git
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
+      <br>Express
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
+      <br>Next.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="65" height="65" />
+      <br>REST API
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
+      <br>PostgreSQL
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+      <br>Redis
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+      <br>Tailwind CSS
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
+      <br>GitHub
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" />
+      <br>Vercel
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" />
+      <br>Supabase
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+      <br>Linux
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=jest" width="48" height="48" alt="Jest" />
+      <br>Jest
+    </td>
+  </tr>
+</table>
 
 ## Featured Projects
 
