@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,100:414868&height=200&section=header&text=Pratham%20Agarwal&fontSize=48&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Security%20tooling%20and%20full-stack%20builds&descAlignY=55&descSize=18&descColor=a9b1d6" width="100%" alt="header" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C0CAF5&background=1A1B26&center=true&vCenter=true&width=740&lines=Built%3A+ransomware+detector+%E2%80%94+entropy+%2B+rename-velocity;Built%3A+async+API+security+scanner+%E2%80%94+16+OWASP+categories;Built%3A+Wazuh+SIEM+%2B+Gemini-based+alert+triage;Built%3A+multi-vendor+SD-WAN+config+auditor)](https://github.com/pratham2104)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C0CAF5&background=1A1B26&center=true&vCenter=true&width=740&lines=Built%3A+ransomware+detector%2C+entropy+%2B+rename-velocity;Built%3A+async+API+security+scanner%2C+16+OWASP+categories;Built%3A+Wazuh+SIEM+%2B+Gemini-based+alert+triage;Built%3A+multi-vendor+SD-WAN+config+auditor)](https://github.com/pratham2104)
 
 [![GitHub](https://img.shields.io/badge/GitHub-pratham2104-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pratham2104)
 
@@ -10,11 +10,11 @@
 
 ## About
 
-I build security tooling that I actually test against real, self-built targets instead of tutorials. Recent projects span behavioral ransomware detection (entropy + rename-velocity, not signatures), an async API vulnerability scanner mapped to the OWASP API Top 10 and MITRE ATT&CK, an LLM-based SIEM triage agent validated against ground-truth findings from my own scanner, and a multi-vendor SD-WAN config auditor — alongside a completed Google Cybersecurity Professional Certificate portfolio and full-stack web work (Node/Express/PostgreSQL, Next.js). A recurring thread in the security repos: ship a detector, then prove it actually fires by running it against something real and writing up the bugs that surfaced along the way.
+I build security tooling and test it against real, self-built targets instead of tutorials. Recent projects include a behavioral ransomware detector (entropy plus rename-velocity, not signatures), an async API vulnerability scanner mapped to the OWASP API Top 10 and MITRE ATT&CK, an LLM-based SIEM triage agent validated against ground-truth findings from my own scanner, and a multi-vendor SD-WAN config auditor. I also finished the Google Cybersecurity Professional Certificate and do full-stack web work in Node, Express, PostgreSQL, and Next.js. Most of the security repos follow the same pattern: ship a detector, then run it against something real and write up whatever breaks.
 
-## My Favorite Tools and Technologies ⚙️
+## Tools I Know
 
-> Tools and technologies that actually show up across these repos — not a wishlist
+> Pulled from what's actually used across these repos, not a wishlist
 
 <table>
   <tr>
@@ -99,17 +99,17 @@ I build security tooling that I actually test against real, self-built targets i
 
 ## Featured Projects
 
-### 🔒 [Ransomware Behavioral Detector](https://github.com/pratham2104/ransomware-behavioral-detector)
-Watches for the *behavior* ransomware produces on disk — a rename-velocity spike plus a jump in file-content entropy — instead of matching known malware signatures, paired with a self-written Fernet/AES simulator to test the whole pipeline end-to-end. Self-testing surfaced two real bugs: an entropy check that looked wired up but silently never fired (base64-encoded ciphertext capped entropy at 6.0 bits/byte, below the 7.2 threshold), and a process-killer with no allowlist that killed macOS's own iCloud sync daemon.
+### [Ransomware Behavioral Detector](https://github.com/pratham2104/ransomware-behavioral-detector)
+Watches for the *behavior* ransomware produces on disk (a rename-velocity spike plus a jump in file-content entropy) instead of matching known malware signatures, paired with a self-written Fernet/AES simulator that tests the whole pipeline end to end. Testing it against itself turned up two real bugs: an entropy check that looked wired up but silently never fired, because base64-encoded ciphertext capped entropy at 6.0 bits per byte, well below the 7.2 threshold, and a process-killer with no allowlist that killed macOS's own iCloud sync daemon.
 
-### 🕵️ [API Attack Surface Auditor](https://github.com/pratham2104/api-attack-surface-auditor)
-Async Python scanner covering 16 vulnerability categories (OWASP API Top 10 and more), every finding mapped to MITRE ATT&CK and scored with CVSS. Version 6 added OpenAPI auto-discovery so it needs no hardcoded route list. Run against a self-built Node/Express + PostgreSQL wellness platform, it confirmed a real CVSS 9.8 SQL injection.
+### [API Attack Surface Auditor](https://github.com/pratham2104/api-attack-surface-auditor)
+Async Python scanner covering 16 vulnerability categories (OWASP API Top 10 and more), with every finding mapped to MITRE ATT&CK and scored with CVSS. Version 6 added OpenAPI auto-discovery, so it no longer needs a hardcoded route list. I ran it against a self-built Node/Express and PostgreSQL wellness platform, and it confirmed a real CVSS 9.8 SQL injection.
 
-### 🤖 [AI SIEM Triage Agent](https://github.com/pratham2104/ai-siem-triage-agent)
-A self-hosted Wazuh SIEM (provisioned from scratch on an Oracle Cloud ARM VM) feeds real alerts — generated by the API Attack Surface Auditor scanning a live target — to Google Gemini for structured triage. Built to measure whether AI triage output can be trusted against independently-verified ground truth, not just to wire an LLM up to a SIEM.
+### [AI SIEM Triage Agent](https://github.com/pratham2104/ai-siem-triage-agent)
+A self-hosted Wazuh SIEM, provisioned from scratch on an Oracle Cloud ARM VM, feeds real alerts (generated by the API Attack Surface Auditor scanning a live target) to Google Gemini for structured triage. I built it to measure whether the AI's triage output actually holds up against independently verified ground truth, since wiring an LLM to a SIEM is the easy part.
 
-### 🌐 [SD-WAN Misconfiguration Scanner](https://github.com/pratham2104/sdwan-misconfiguration-scanner)
-Static-analysis auditor for Fortinet, Versa Networks, and HPE Aruba SD-WAN configs — 38 rules across IPsec/IKE crypto, admin access, SNMP, and firewall policy, each mapped to MITRE ATT&CK and CVSS v3.1 with a remediation command. Validated against a real 10,684-line production FortiGate config.
+### [SD-WAN Misconfiguration Scanner](https://github.com/pratham2104/sdwan-misconfiguration-scanner)
+Static-analysis auditor for Fortinet, Versa Networks, and HPE Aruba SD-WAN configs. 38 rules cover IPsec/IKE crypto, admin access, SNMP, and firewall policy, each mapped to MITRE ATT&CK and CVSS v3.1 with a remediation command. I tested it against a real 10,684-line production FortiGate config.
 
 ## GitHub Stats
 
