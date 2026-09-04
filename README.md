@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,100:414868&height=200&section=header&text=Pratham%20Agarwal&fontSize=48&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Security%20tooling%20and%20full-stack%20builds&descAlignY=55&descSize=18&descColor=a9b1d6" width="100%" alt="header" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C0CAF5&background=1A1B26&center=true&vCenter=true&width=740&lines=Built%3A+ransomware+detector%2C+entropy+%2B+rename-velocity;Built%3A+async+API+security+scanner%2C+16+OWASP+categories;Built%3A+Wazuh+SIEM+%2B+Gemini-based+alert+triage;Built%3A+multi-vendor+SD-WAN+config+auditor)](https://github.com/pratham2104)
+<img src="./profile/terminal.svg" alt="Terminal listing four projects built: ransomware detector, API security scanner, SIEM triage agent, SD-WAN config auditor" width="720" height="210" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-pratham2104-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pratham2104)
 
