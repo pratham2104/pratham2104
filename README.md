@@ -44,8 +44,8 @@ Static-analysis auditor for Fortinet, Versa Networks, and HPE Aruba SD-WAN confi
 
 <div align="center">
 
-<img src="./profile/stats.svg" alt="pratham2104's GitHub stats" height="165" />
-<img src="./profile/top-langs.svg" alt="Top languages" height="165" />
+<img src="https://github-stats-extended.vercel.app/api?username=pratham2104&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="pratham2104's GitHub stats" height="165" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=pratham2104&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="165" />
 
 <img src="https://streak-stats.demolab.com?user=pratham2104&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
 
