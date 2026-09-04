@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,100:414868&height=200&section=header&text=pratham2104&fontSize=48&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Security%20tooling%20%26%20full-stack%20builds&descAlignY=55&descSize=18&descColor=a9b1d6" width="100%" alt="header" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C0CAF5&background=1A1B26&center=true&vCenter=true&width=740&lines=Behavioral+ransomware+detection+%E2%80%94+entropy+%2B+rename-velocity;Async+API+security+scanner+%E2%80%94+16+OWASP+categories;Self-hosted+Wazuh+SIEM+%2B+Gemini+alert+triage;Multi-vendor+SD-WAN+config+auditor)](https://github.com/pratham2104)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C0CAF5&background=1A1B26&center=true&vCenter=true&width=740&lines=Built%3A+behavioral+ransomware+detector+(entropy+%2B+rename-velocity);Built%3A+async+API+security+scanner+%E2%80%94+16+OWASP+categories;Built%3A+Wazuh+SIEM+%2B+Gemini-based+alert+triage;Built%3A+multi-vendor+SD-WAN+config+auditor)](https://github.com/pratham2104)
 
 [![GitHub](https://img.shields.io/badge/GitHub-pratham2104-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pratham2104)
 
